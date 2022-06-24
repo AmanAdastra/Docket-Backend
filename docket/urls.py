@@ -7,4 +7,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('auth/',include('authentication.urls')),
     path('questions/',include('questions.urls')),
+    path('shortcut/',include('shortcut.urls')),
 ]
